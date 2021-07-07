@@ -58,20 +58,20 @@ TODO:
     // ------------------------- YOUR CODE STARTS HERE --------------------------------------
     // TODO: Add your code here
     switch (operator) {
-      case "plus": // TODO: Check the line bellow to see how an operation is made
+      case "plus": // TODO: Check the line below to see how an operation is made
         resultNum = oldNum + theNum;
         break;
 
       case "minus":
-        resultNum = 0; // TODO: Add the minus operation here
+        resultNum = oldNum - theNum; // TODO: Add the minus operation here
         break;
 
       case "times":
-        resultNum = 0; // TODO: Add the times operation here
+        resultNum = oldNum * theNum; // TODO: Add the times operation here
         break;
 
       case "divided by": // TODO: Add the divided by operation here
-        resultNum = 0;
+        resultNum = oldNum / theNum;
         break;
 
       // If equal is pressed without an operator, keep number and continue
